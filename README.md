@@ -40,3 +40,7 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 3. nell'altro array vuoto devo pusharci le zucchine che sono lunghe > 15 cm
 4. stampo separatamente la somma del peso dei due array 
 
+** JSnack 3 ** 
+1. con SPLIT trasformo un array in una stringa
+2. REVERSE per girare la stringa
+3. JOIN per attaccare la parola

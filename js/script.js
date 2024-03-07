@@ -102,3 +102,15 @@ longZucchine.forEach(zucchina => {
 })
 console.log(shortZucchine);
 console.log(`il peso di tutte le zucchine che sono puù lunghe di 15 è: ${pesoLongZucchine} gr`);
+
+
+/////////////////////////////////////////  SNACK 3   /////////////////////////////////////////
+
+const parola = 'cielo';
+
+function daGirare(parola) {
+  return parola.split('').reverse().join(' ');
+
+}
+
+console.log(daGirare(parola));
