@@ -49,3 +49,5 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 1. creo due array con lo stesso numero di elementi
 2. creo un array vuoto dove pusherò al suo interno gli elementi degli altri array
 3. ciclo for andando a prendere la lunghezza dei due array per puhare dentro gli elementi
+
+** JSnack 5 ** 

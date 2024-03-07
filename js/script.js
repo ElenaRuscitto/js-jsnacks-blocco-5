@@ -131,3 +131,25 @@ for (let i = 0; i < lunghezza; i++) {
   newArray.push(natura[i]);
 }
 console.log(newArray);
+
+
+/////////////////////////////////////////  SNACK 5   /////////////////////////////////////////
+
+
+const psicologi = ['Freud', 'Jung', 'Skinner', 'Pavlov', 'Piaget', 'Maslow', 'Wundt', 'Bandura', 'Maslow', 'Lewin'];
+
+const prev = 2;
+const next = 8;
+
+function array (psicologi, prev, next) {
+  const nuovoArray = [];
+
+  for (let i = prev; i <= next; i++) {
+    nuovoArray.push(psicologi[i])
+  }
+  return nuovoArray;
+}
+
+const result = array(psicologi, prev, next);
+
+console.log(result);
