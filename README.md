@@ -31,6 +31,6 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 ## SVOLGIMENTO
 ** JSnack 1 ** 
 1. creo array con 10 zucchine, indicando per ognuna varietà, peso e lunghezza.
-2. destrutturo le 3 proprietà
-3. con il ciclo ..... faccio la somma di quanto pesano tutte le zucchine
+2. con il ciclo forEach faccio la somma di quanto pesano tutte le zucchine
+
 

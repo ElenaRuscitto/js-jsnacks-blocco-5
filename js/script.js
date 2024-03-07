@@ -60,7 +60,12 @@ const zucchine = [
   }
 ]
 
-// Destrutturo l'array
-const [peso] = zucchine;
-console.log(zucchine).peso;
+///////////////////////////////////////////    SNACK 1 ///////////////////////////////////////////
 
+let totalePeso = 0;
+
+zucchine.forEach(zucchine => {
+  totalePeso += zucchine.peso
+})
+
+console.log(`il peso di tutte le zucchine è: ${totalePeso} gr`);
