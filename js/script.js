@@ -114,3 +114,12 @@ function daGirare(parola) {
 }
 
 console.log(daGirare(parola));
+
+
+/////////////////////////////////////////  SNACK 4   /////////////////////////////////////////
+
+const oggetti = ['a', 'b', 'c'];
+const natura = ['1', '2', '3'];
+
+
+console.log(...oggetti[0], ...natura[0], ...oggetti[1], ...natura[1], ...oggetti[2], ...natura[2]);

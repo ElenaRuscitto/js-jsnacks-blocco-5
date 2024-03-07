@@ -44,3 +44,7 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 1. con SPLIT trasformo un array in una stringa
 2. REVERSE per girare la stringa
 3. JOIN per attaccare la parola
+
+** JSnack 4 ** 
+1. creo due array con lo stesso numero di elementi
+2. 
