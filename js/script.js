@@ -118,8 +118,8 @@ console.log(daGirare(parola));
 
 /////////////////////////////////////////  SNACK 4   /////////////////////////////////////////
 
-const oggetti = ['a', 'b', 'c'];
-const natura = ['1', '2', '3'];
+const oggetti = ['accendino', 'binocolo', 'fuoco'];
+const natura = ['albero', 'cielo', 'legna'];
 
 let newArray = [];
 
