@@ -32,5 +32,11 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 ** JSnack 1 ** 
 1. creo array con 10 zucchine, indicando per ognuna varietà, peso e lunghezza.
 2. con il ciclo forEach faccio la somma di quanto pesano tutte le zucchine
+3. stampo il risultato
 
+** JSnack 2 ** 
+1. creiamo 2 array vuoti
+2. in un array vuoto devo pusharci le zucchine che sono lunghe < 15 cm
+3. nell'altro array vuoto devo pusharci le zucchine che sono lunghe > 15 cm
+4. stampo separatamente la somma del peso dei due array 
 

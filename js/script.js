@@ -60,7 +60,7 @@ const zucchine = [
   }
 ]
 
-///////////////////////////////////////////    SNACK 1 ///////////////////////////////////////////
+/////////////////////////////////////////  SNACK 1   /////////////////////////////////////////
 
 let totalePeso = 0;
 
@@ -69,3 +69,36 @@ zucchine.forEach(zucchine => {
 })
 
 console.log(`il peso di tutte le zucchine è: ${totalePeso} gr`);
+
+
+/////////////////////////////////////////  SNACK 2   /////////////////////////////////////////
+
+const shortZucchine = [];
+const longZucchine = [];
+
+zucchine.filter (zucchina => {
+  if (zucchina.lunghezza > 15 ) {
+    return longZucchine.push (zucchina);
+  } else {
+    return shortZucchine.push (zucchina);
+  }
+});
+
+console.log(shortZucchine);
+console.log(longZucchine);
+
+let pesoShortZucchine = 0;
+shortZucchine.forEach(zucchina => {
+  pesoShortZucchine += zucchina.peso
+})
+
+console.log(`il peso di tutte le zucchine che sono puù lunghe di 15 è: ${pesoShortZucchine} gr`);
+
+
+
+let pesoLongZucchine = 0;
+longZucchine.forEach(zucchina => {
+  pesoLongZucchine += zucchina.peso
+})
+console.log(shortZucchine);
+console.log(`il peso di tutte le zucchine che sono puù lunghe di 15 è: ${pesoLongZucchine} gr`);
