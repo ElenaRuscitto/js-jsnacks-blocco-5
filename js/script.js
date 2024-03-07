@@ -121,5 +121,13 @@ console.log(daGirare(parola));
 const oggetti = ['a', 'b', 'c'];
 const natura = ['1', '2', '3'];
 
+let newArray = [];
 
-console.log(...oggetti[0], ...natura[0], ...oggetti[1], ...natura[1], ...oggetti[2], ...natura[2]);
+// console.log(...oggetti[0], ...natura[0], ...oggetti[1], ...natura[1], ...oggetti[2], ...natura[2]);
+let lunghezza = oggetti.length;
+
+for (let i = 0; i < lunghezza; i++) {
+  newArray.push(oggetti[i]);
+  newArray.push(natura[i]);
+}
+console.log(newArray);
